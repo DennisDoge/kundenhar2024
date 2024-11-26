@@ -1,0 +1,41 @@
+div#wrapper{
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr 2fr; 
+    grid-template-areas:
+    'hd hd'
+    'as mn'
+    'ft ft'
+    gap: 10px;
+    height: 10px;
+}
+
+header {
+    grid-area: hd;
+    background-color: azure;
+
+}
+
+nav{
+    display: flex;
+
+}
+
+aside{
+    grid-area: as;
+    background-color: aqua;
+
+}
+
+main{
+    grid-area: mn;
+    background-color: black;
+}
+
+footer{
+    grid-area: ft;
+    background-color: chartreuse;
+}
+
+
+
