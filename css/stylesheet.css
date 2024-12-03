@@ -1,36 +1,51 @@
 div#wrapper{
     display:grid;
     grid-template-rows: auto 1fr auto;
-    grid-template-columns: 1fr 2fr; 
     grid-template-areas:
-    'hd hd'
-    'as mn'
-    'ft ft';
+    'hd'
+    'mn'
+    'ft';
     gap: 10px;
-    height: 100vh;
-    padding: 10px;
+    min-height: 100vh;
 }
 
 header {
     grid-area: hd;
-    background-color: azure;
+    background-color: #9b59b6;
+    text-align: center;
+    padding: 20px;
 
 }
 
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    justify-content: center;
+}
 nav{
+    margin-top: 10px;
+
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
     display: flex;
-
+    justify-content: center;
+    gap: 20px;
+    
 }
 
-aside{
-    grid-area: as;
-    background-color: aqua;
-
+nav ul p a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: aquamarine;
 }
+
 
 main{
     grid-area: mn;
-    background-color: black;
+    background-color: #9b59b6;
 }
 
 footer{
@@ -40,3 +55,23 @@ footer{
 
 
 
+.main-image{
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+    padding: 30px;
+    position: absolute;
+    right: 900px;
+
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.articlesimg{
+    height: 200px;
+    display:block;
+}
