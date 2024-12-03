@@ -5,9 +5,10 @@ div#wrapper{
     grid-template-areas:
     'hd hd'
     'as mn'
-    'ft ft'
+    'ft ft';
     gap: 10px;
-    height: 10px;
+    height: 100vh;
+    padding: 10px;
 }
 
 header {
