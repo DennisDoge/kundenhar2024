@@ -9,8 +9,6 @@ div#wrapper{
     'hd'
     'mn'
     'ft';
-    /* gap: 10px; */
-    min-height: 100vh;
 }
 
 header {
@@ -70,6 +68,7 @@ h2{
     font-size: 1.5rem;
     color:#9b59b6;
     margin-top: 10px;
+    text-align: center;
 }
 
 
@@ -97,6 +96,8 @@ h2{
     margin: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);;
 }
+
+
 .articlesimg{
     width: 250px;
     height: auto;
@@ -113,6 +114,17 @@ article h2 a:hover{
     border-radius: 10px;
 }
 
+.articlestext {
+    padding-left: 30px;
+    font-size: ;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
 footer{
     grid-area: ft;
     background-color: #9b59b6;
@@ -121,3 +133,4 @@ footer{
     padding: 10px;
     
 }
+
